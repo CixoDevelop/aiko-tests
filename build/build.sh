@@ -8,7 +8,7 @@ BINARY=./core.out
 OBJECTS_DIR=./
 
 CC="gcc"
-CC_FLAGS="-Wall -Wextra -Wpedantic -L../libs/testlib/build -ltestlib -I../libs/testlib/headers -L../libs/aiko/build -laiko -I../libs/aiko/headers"
+CC_FLAGS="-Wall -Wextra -Wpedantic -L../libs/testlib/build -ltestlib -I../libs/testlib/headers -L../libs/aiko/build-gcc-linux -laiko -I../libs/aiko/headers"
 
 set -x
 
